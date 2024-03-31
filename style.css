@@ -1,0 +1,956 @@
+:root {
+    --red-color: #FF0000;
+    --som-blue: #0176AB;
+    --dark-blue: #053850;
+    --light-blue: #0176AB;
+    --light-green: #04E60D;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+header {
+    background-image: url('Images/Untitled-1\ 1.png'); 
+    background-size: cover;
+    background-repeat: repeat-y; 
+    background-position: center; 
+    height: 100vh;
+}
+
+.wrapper {
+    max-height: 880px;
+    margin: 0;  
+}
+
+nav {
+    display: flex;
+    background: #FFFFFFD9;
+    height: 89px;
+    width: 100%;
+    box-shadow: 0px 4px 20px 0px #0000001A;
+}
+
+nav .logo {
+    width: 133px;
+    height: 61px;
+    margin-top: 14px;
+    margin-left: 133px;
+}
+
+nav ul {
+    display: flex;
+    gap: 60px;
+    list-style: none;
+    font-family: Inter;
+    font-size: 19px;
+    font-weight: 500;
+
+    height: 23px;
+    margin-top: 33px; 
+    margin-left: 400px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: Inter;
+    font-size: 19px;
+    font-weight: 500;
+    color: #053850;
+}
+
+.btn-li {
+    width: 207px;
+    height: 55px;
+    padding: 10px 32px;
+    border-radius: 18px;
+    background-color: #FF0000;
+    color: #ffffff;
+    font-family: Inter;
+    font-size: 19px;
+    font-weight: 800;
+    line-height: 29.05px;
+    text-align: center;
+}
+
+.left {
+    position: relative;
+    width: 650px;
+    height: 493px;
+    margin-top: 80px;
+    margin-left: 115px;
+    background-image: url(Images/Rectangle\ 1.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+
+
+.left h1 {
+    font-family: Inter;
+    font-size: 60px;
+    font-weight: 800;
+    text-align: left;
+    line-height: 50px;
+    color: var(--dark-blue);
+    padding-top: 30px;
+    margin-left: 70px;
+}
+
+.left h1 .highlight {
+    color: var(--red-color)
+}
+
+.left p {
+font-family:  "Poppins", sans-serif;;
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+text-align: left;
+margin-left: 70px;
+margin-top: -10px;
+padding-bottom: 15px;
+}
+
+.left a { 
+    width: 207px;
+    height: 55px;
+    padding: 16px 32px;
+    border-radius: 18px;
+    background-color: #FF0000;
+    color: #FFFFFF; 
+    margin-left: 70px;
+    text-decoration: none; 
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 29.05px;
+    text-align: center;
+
+}
+
+.bottom {
+    display: inline-flex; 
+    margin-top: -20px;
+    gap: 60px;
+    margin-left: 160px;
+}
+
+.item {
+    font-size: 30px; 
+    line-height: 1; 
+    display: flex; 
+    align-items: center; 
+    
+}
+
+.item .subtext {
+    display: inline-block;
+}
+
+.item .subtext p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 15px;
+    margin-top: 3px;
+    color: #FFFFFF;
+}
+
+.logo-container {
+    display: flex; 
+    margin-left: 40px;
+}
+
+.logo-container .Partners {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+    color: #FFFFFF;
+    margin-right: 40px;
+    margin-top: 35px;
+
+}
+
+.logo-container .saphire {
+    margin-top: 10px;
+}
+
+.logo-container .Princeps {
+    margin-top: 5px;
+}
+
+
+.logo-container img {
+    margin: 0 5px; 
+}
+strong {
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: left;
+    line-height: 50px;
+    color: #FFFFFF;
+    margin-right: 5px;
+}
+
+/* End of Header Section */
+
+/* Beginning of Loan Amount Section */
+
+section {
+    overflow: hidden;
+
+}
+
+.contain {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    margin-left:120px;
+}
+
+.contain .left2 {
+    width: 1000px; 
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    margin-left: -30px;
+
+    
+}
+
+
+
+.contain .image1 {
+    width: 550px;
+    height: 110vh; 
+    margin-top: -14px;
+    margin-left: 80px;
+    gap: 0px;
+    
+
+    background-image: url('Images/7xm 1.png');
+    background-size: cover;
+    background-position: right ;
+}
+
+.logo1 {
+    
+    display: flex;
+    justify-content:center
+    
+}
+
+.icons {
+    display: flex;
+    justify-content: center; 
+    margin-top: 30px;
+}
+
+.icons > div {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    margin-right: 10px;
+}
+
+.icons a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 43px;
+    height: 43px;
+    background-color:  #0176AB;
+    border-radius: 50%; 
+}
+
+.icons a img {
+    width: 30px; 
+    height: 30px; 
+}
+
+.icons p {
+    margin: 0; 
+    font-family: Montserrat;
+    font-size: 7px;
+    font-weight: 500;
+    line-height: 23.87px;
+    text-align: center;
+
+}
+
+.red {
+    font-family: Montserrat;
+    font-size: 19.91px;
+    font-weight: 700;
+    line-height: 23.87px;
+    text-align: center;
+    color: #FF0000;
+}
+
+#money {
+    width: 490px; 
+    border-radius: 10px; 
+    text-align: left;
+     /*#money is id for the form  */
+
+}
+
+#money input[type="text"],
+#money select {
+    width: 100%; 
+    height: 38px;
+    border-radius: 12px;
+    border: none; 
+    outline: none;
+    background-color: #F5F7FA;
+}
+
+#money p {
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 19.89px;
+    text-align: left;
+}
+
+
+#money p a {
+    color: #0176AB;
+    text-decoration: none;
+}
+input[type="checkbox"] + label {
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 19.89px;
+    text-align: left;
+
+}
+
+form button[type="submit"] {
+    background-color: #FF0000; 
+    width: 200px;
+    height: 39px;
+    color: white; 
+    padding: px;
+    border: none; 
+    border-radius: 15px;
+    margin-left: 30px; 
+    
+    font-family: Inter;
+    font-size: 19px;
+    font-weight: 800;
+    line-height: 29.05px;
+    text-align: center;
+    cursor: pointer; 
+    animation-timing-function: ease-in-out;
+    animation-duration: 300ms;
+
+}
+
+form button[type="submit"]:hover {
+    background-color: #36b9fa;
+    color: #000000; 
+}
+
+.prev {
+    background-color: #FFFFFF; 
+    width: 182px;
+    height: 49px;
+    /* margin-right: 30px; */
+    color: rgb(0, 0, 0);
+    padding: 8px 20px; 
+    border: solid 1px; 
+    border-radius: 15px; 
+    cursor: pointer; 
+    font-family: Inter;
+    font-size: 19px;
+    font-weight: 800;
+    line-height: 29.05px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.prev:hover {
+    background-color: #053850;
+    color: #ffffff;  
+}
+
+  /* End of Amount Section */
+
+.contain2 {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    margin-left: 75px;
+}
+
+.contain2 .left3 {
+    width: 1000px; 
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    margin-right: 10px;
+    
+}
+
+.contain2 .image2 {
+    width: 634px;
+    height: 120vh; 
+    margin-top: -14px;
+    margin-left: 0px 
+    gap: 0px;
+
+    background-image: url('Images/Mask\ group.png');
+    background-size: contain;
+    background-repeat: repeat-y;
+    background-position: top;
+}
+
+.logo2 {
+    
+    display: flex;
+    justify-content:center
+    
+}
+
+.two {
+    display: flex;
+    gap: 10px;
+}
+
+
+
+.amount1 {
+width: 190px;
+height: 188px;
+margin-top: 10px;
+margin-left: -50px;
+background-color: #0176AB0A;
+border-radius: 16px;
+padding: 20px 20px 30px 30px;
+}
+
+.amount1 span {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 2px;
+    text-align: left;
+
+}
+
+.amount1 p {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: left;
+    margin-top: -5px;
+}
+
+.green {
+    color: #04E60D;
+}
+
+.interest {
+    width: 190px;
+    height: 188px;
+    margin-top: 10px;
+    
+    background-color: #0176AB0A;
+    border-radius: 16px;
+    padding: 20px 30px 30px 20px;
+    }
+
+.interest span {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 2px;
+    text-align: right;
+    margin-left: 42px;
+}
+    
+.interest p {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: right;
+    margin-top: -5px;
+    }
+
+.term {
+    width: 394px;
+    height: 156px;
+    top: 483px;
+    margin-left: -50px;
+
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
+}
+
+
+.term a {
+    color: #0176AB;
+    text-decoration: none;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    margin-left: -200px;
+}
+
+
+input[type="checkbox"] + label {
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 10px;
+    text-align: left;
+    margin-right: 5px;
+}
+
+.bit {
+    display: inline-flex;
+    margin-left: -70px;
+}
+
+.bit .prev {
+    margin-right: 10px;
+    border-radius: 20px;
+}
+.Next {
+    background-color: #FF0000; 
+    width: 182px;
+    height: 49px;
+    margin-right: px;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px; 
+    border: solid 1px; 
+    border-radius: 20px; 
+    cursor: pointer; 
+    font-family: Inter;
+    font-size: 19px;
+    font-weight: 800;
+    line-height: 29.05px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.Next:hover {
+    background-color: #36b9fa;
+    color: #000000; 
+}
+
+/* -----------------------------------------------------
+End of Loan Breakdown Styling */
+
+
+.cont1 {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    margin-left: 90px;
+}
+
+.cont1 .left3 {
+    width: 1000px; 
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    margin-right: 30px;
+    margin-left: -35px;
+}
+
+.cont1 .image3 {
+    width: 634px;
+    height: 110vh; 
+    margin-top: -14px;
+    
+    gap: 0px;
+
+    background-image: url('Images/Mask\ group.png');
+    background-size: cover;
+    background-position: leftt;
+}
+
+.logo2 {
+    
+    display: flex;
+    justify-content:center
+    
+}
+.info {
+    width: 490px; 
+    border-radius: 10px; 
+    text-align: left;
+    margin-left: 100px;
+
+}
+
+.info input[type="text"],
+.info select {
+    width: 360px; 
+    height: 38px;
+    border-radius: 12px;
+    border: none; 
+    outline: none;
+    background-color: #F5F7FA;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.info input[type="date"] {
+    width: 360px; 
+    height: 38px;
+    border-radius: 12px;
+    border: none; 
+    outline: none;
+    background-color: #F5F7FA;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+.info label {
+    font-family: Montserrat;
+    font-size: 15.91px;
+    font-weight: 400;
+    line-height: 23.87px;
+    text-align: center;
+
+}
+
+.info .bit {
+    margin-left: 2px;
+    width: 360px;
+}
+
+/* -------------------------------------------------
+-----End of Personal Info*/
+
+.cont2 {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    margin-left: 76px;
+}
+
+.cont2 .left3 {
+    width: 1000px; 
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    margin-right: 30px;
+    margin-left: -35px;
+    
+}
+
+.cont2 .image4 {
+    width: 650px; /* Set the desired width */
+    height: 120vh; 
+    background-image: url(Images/7xm\ 1.png);
+    background-size: cover;
+    background-position: center;
+    margin-top: -50px;
+    margin-left: px;
+    gap: 0px;
+    /* border: 1px solid; */
+
+    background-image: url(Images/7xm\ 1.png);
+    background-size: cover;
+    background-position: top;
+}
+
+.logo3 {
+    
+    display: flex;
+    justify-content:center
+    
+}
+
+.info2 {
+    width: 490px; 
+    border-radius: 10px; 
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 10px;
+
+}
+
+.info2 input[type="text"] {
+    width: 360px; 
+    height: 38px;
+    border-radius: 12px;
+    border: none; 
+    outline: none;
+    background-color: #F5F7FA;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.info2 input[type="email"] {
+    width: 360px; 
+    height: 38px;
+    border-radius: 12px;
+    border: none; 
+    outline: none;
+    background-color: #F5F7FA;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.info2 input[type="tel"] {
+    width: 360px; 
+    height: 38px;
+    border-radius: 12px;
+    border: none; 
+    outline: none;
+    background-color: #F5F7FA;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#myCity {
+    margin-bottom: 0px;
+}
+
+
+.info2 label {
+    font-family: Montserrat;
+    font-size: 15.91px;
+    font-weight: 400;
+    line-height: 23.87px;
+    text-align: center;UA
+
+}
+
+.info2 small {
+    font-family: Montserrat;
+    font-size: 9px;
+    font-weight: 400;
+    text-align: left;
+    color: #FF0000;
+
+}
+
+.info2 .bit {
+    margin-left: 2px;
+    width: 360px;
+}
+
+/* -----------------------------------------------------------
+------------End of contact information */
+
+.cont3 {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    margin-left: 76px;
+}
+
+.cont3 .left4 {
+    width: 1000px; 
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    margin-right: 30px;
+    margin-left: -35px;
+    
+}
+
+.cont3 .image5 {
+    width: 650px; 
+    height: 120vh; 
+  
+    margin-top: -50px;
+    margin-left: px;
+    gap: 0px;
+
+    background-image: url(Images/7xm\ 1.png);
+    background-size: cover;
+    background-position: top;
+}
+
+.logo4 {
+    
+    display: flex;
+    justify-content:center
+    
+}
+
+.info3 {
+    width: 490px; 
+    border-radius: 10px; 
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 10px;
+
+}
+
+.info3 input[type="text"] {
+    width: 360px; 
+    height: 38px;
+    border-radius: 12px;
+    border: none; 
+    outline: none;
+    background-color: #F5F7FA;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.info3 input[type="number"] {
+    width: 360px; 
+    height: 38px;
+    border-radius: 12px;
+    border: none; 
+    outline: none;
+    background-color: #F5F7FA;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
+#bank-account{
+    margin-bottom: 0px;
+}
+
+
+.info3 label {
+    font-family: Montserrat;
+    font-size: 15.91px;
+    font-weight: 400;
+    line-height: 23.87px;
+    text-align: center;UA
+
+}
+
+.info3 small {
+    font-family: Montserrat;
+    font-size: 9px;
+    font-weight: 400;
+    text-align: left;
+    color: #FF0000;
+
+}
+
+.info3 .bit {
+    margin-left: 2px;
+    width: 360px;
+}
+
+/* -----------------------------------------------------------
+------------End of Employment information */
+
+.cont4 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    margin-left: 0px;
+}
+
+.cont4 .left5 {
+    width: 1000px; 
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    
+}
+
+.cont4 .image6 {
+    width: 600px; 
+    height: 120vh; 
+    margin-top: -50px;
+    margin-left: 130px;
+    gap: 0px;
+
+    background-image: url(Images/[GetPaidStock\ 1.png);
+    background-size: cover;
+    background-position: top;
+}
+
+.logo5 {
+    
+    display: flex;
+    justify-content:center
+    
+}
+
+.congratulations {
+
+    width: 490px; 
+    border-radius: 10px; 
+    text-align: center;
+    margin-top: 10px;
+}
+
+.congratulations h3 {
+    font-family: Poppins;
+    font-size: 30.35px;
+    font-weight: 600;
+    line-height: 45.53px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #0176AB;
+    ;
+
+}
+
+.congratulations p {
+    font-family: Poppins;
+    font-size: 15.35px;
+    font-weight: 500;
+    line-height: 23.03px;
+    letter-spacing: 0.03em;
+    text-align: center;
+
+}
+
+.thank {
+    background-color: #FF0000; 
+    width: 386px;
+    height: 49px;
+    margin-right: px;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px; 
+    border: solid 1px; 
+    border-radius: 20px; 
+    cursor: pointer; 
+    font-family: Inter;
+    font-size: 21px;
+    font-weight: 800;
+    line-height: 25.41px;
+    text-align: center;
+
+}
+
